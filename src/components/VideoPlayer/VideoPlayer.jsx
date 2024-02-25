@@ -1,7 +1,8 @@
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useContext } from "react";
+import { VideoContext } from "../../context/videoContext";
 
 const VideoPlayer = () => {
-  const videoRef = useRef();
+  const { videoRef } = useContext(VideoContext);
 
   useEffect(() => {
     startVideo();
