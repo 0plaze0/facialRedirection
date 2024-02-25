@@ -39,17 +39,4 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 
 1. Clone the repository.
 2. Install dependencies for both api and client: `npm install`
-
-   ```
-   //frontend
-   VITE_BASE_API=(eg. http://localhost:5555/)
-
-   //backend
-   DB_URI=(eg. mongodb://127.0.0.1:27017/)
-    SALT=(eg. 10)
-    ACCESS_TOKEN_SECRET=(eg. secret)
-   ```
-
-3. Set up environment variables such as database connection string, JWT secret key, etc.
-4. Start the server: `npm start`
-5. Start the frontend development server: `npm start`
+3. Start the frontend development server: `npm run dev`
